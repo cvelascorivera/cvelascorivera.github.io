@@ -134,7 +134,7 @@ li ul {
     max-width: 100%;
 }
 #content a img {
-    padding: 3px;
+    padding: 1px;
 }
 #content a:hover img {
     border: 1px dotted #93CCC6;
@@ -226,7 +226,7 @@ ul#tweets {
 ul#tweets li {
     border-bottom: 1px dotted #cb4b16;
 }
-ul#tweets a[href*="https://twitter.com/cvelascorivera"] {
+ul#tweets a[href*=""] {
     border-bottom: medium none;
     float: right;
     padding: 0 0 0.1em 1em;
