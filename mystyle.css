@@ -226,7 +226,7 @@ ul#tweets {
 ul#tweets li {
     border-bottom: 1px dotted #cb4b16;
 }
-ul#tweets a[href*=""] {
+ul#tweets a[href*="https://twitter.com/cvelascorivera"] {
     border-bottom: medium none;
     float: right;
     padding: 0 0 0.1em 1em;
