@@ -1,0 +1,286 @@
+/* notes: */
+/* '@media' for different media types */
+/* '.' prefix for class declarations */
+/* '#' for ids */
+
+/* for solarized: http://ethanschoonover.com/solarized */
+
+/* #FFFFFF white */
+
+body {
+    background-color: #FFFFFF /* #fdf6e3; */  /* 353535 */  /* #474A4A */
+    /* border-top: 10px solid #cb4b16;  /\* #F79C40 *\/ */
+    color: #cb4b16 /* #657b83; /* #FFFFFF */  
+    /* font-family: "Maven+Pro","Bitstream Vera Sans",helvetica,arial,sans-serif; */
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 40%;
+    margin: 60px auto;
+}  
+a:link {
+    border-bottom: 1px dotted #cb4b16; /* #cb4b16 */
+    color: #cb4b16; /* #cb4b16 */
+    text-decoration: none;
+}
+a:visited {
+    border-bottom: 1px dotted #cb4b16;  /* #cb4b16 */
+    color: #cb4b16; /* #cb4b16 */
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px dotted #657b83;
+    color: #657b83;
+    text-decoration: none;
+}
+a:active {
+    border-bottom: 1px dotted #657b83;
+    color: #657b83; 
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #cb4b16; 
+    /* font-family: "Maven+Pro","Bitstream Vera Sans",helvetica,arial,sans-serif; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+h3 {
+    margin-bottom: 0.5em;
+}
+.category-name h3 {
+    border-bottom: 1px dotted #cb4b16; /* cb4b16 */
+    color: #cb4b16; /* cb4b16 */
+    font-size: smaller;
+    margin-top: 3em;
+    text-transform: uppercase;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+li ul li {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+li ul {
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+#picture {
+    border: medium none;
+}
+#title {
+    /* font-family: "Raleway","Calibri",Verdana,sans-serif; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2.5em; 
+    font-weight: 100;
+    margin: 5pt;
+    text-align: center;
+}
+#navbar {
+    border-bottom: 1px solid #657b83;  /* F79C40 */
+}
+#navbar ul {
+    font-family: "Alegreya Sans SC", Verdana,sans-serif; /* "Maven+Pro","Calibri" */
+    font-size: 1.25em;
+    font-weight: 100;
+    line-height: normal;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+#navbar li {
+    display: inline;
+    list-style: none outside none;
+    margin: 0 1px 0 0;
+    vertical-align: bottom;
+}
+#navbar #active a {
+    background-color: #cb4b16; 
+    color: #fdf6e3;
+    margin: 0;
+}
+#navbar li a {
+    border: medium none;
+    color: #cb4b16;  /* 93CCC6 */
+    margin: 0;
+    padding: 0.2em 0.75em 0;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #cb4b16;
+    color: #fdf6e3;  /* 657b83 */
+}
+#navbar #active a:hover {
+    background-color: #cb4b16;
+    color: #657b83;
+}
+#content {
+    padding-top: 40px;
+}
+#content img {
+    border: 0 none;
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 3em;
+    max-width: 100%;
+}
+#content a img {
+    padding: 3px;
+}
+#content a:hover img {
+    border: 1px dotted #93CCC6;
+    padding: 2px;
+}
+#email:before {
+    content: "";
+}
+#footer {
+    border-top: 1pt dotted #657b83;
+    clear: left;
+    font-size: 0.75em;
+    margin: 2.5em auto;
+    padding-bottom: 20px;
+    padding-top: 2px;
+}
+blockquote {
+    border-left: 3px solid #cb4b16;
+    color: #657b83;
+    padding: 10px;
+}
+blockquote p {
+    margin: 0;
+}
+.vcard {
+    clear: none;
+    text-align: left;
+}
+#sites {
+    float: right;
+    text-align: right;
+}
+.project-title {
+    color: #cb4b16; 
+    font-family: "Lato","Calibri",Verdana,sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+}
+.project-title a {
+    border-bottom: 1px dotted #cb4b16;
+    color: #cb4b16;
+}
+.project-title a:hover {
+    border-bottom: 1px dotted #657b83;
+    color: #657b83;
+}
+.project {
+    margin-top: 10px;
+    padding-bottom: 2em;
+}
+.project img {
+    padding-top: 10px;
+}
+.project li {
+    margin: 0.2em;
+}
+.mac .project-title {
+    font-weight: 300;
+}
+.mac .project li {
+    font-weight: 300;
+}
+.mac #title {
+    font-family: 'Raleway',cursive;
+    font-weight: 100;
+}
+.mac .front-header h3 {
+    font-weight: 300;
+}
+.mac #content p {
+    font-weight: 300;
+}
+.mac #navbar ul {
+    font-weight: 300;
+}
+.recents {
+    border-top: 1px dotted #cb4b16;
+    font-size: 0.9em;
+    margin-top: 10em;
+    padding-top: 1em;
+}
+ul#tweets {
+    border-top: 1px dotted #cb4b16;
+    list-style-type: none;
+}
+ul#tweets li {
+    border-bottom: 1px dotted #cb4b16;
+}
+ul#tweets a[href*=""] {
+    border-bottom: medium none;
+    float: right;
+    padding: 0 0 0.1em 1em;
+    position: relative;
+}
+.post-nav a.next {
+    float: right;
+}
+@media (max-width: 780px) {  
+.container {
+    width: 100%;
+}
+.span-16 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.append-4 {
+    padding-right: 0;
+}
+}
+@media (max-width: 600px) {
+.container {
+    width: 300px;
+}
+.span-24 {
+    width: 300px;
+}
+.span-8 {
+    width: 500px;
+}
+.span-16 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 300px;
+}
+.span-12 {
+    width: 300px;
+}
+#title {
+    font-size: 2.5em;
+}
+#navbar ul {
+    font-size: 1.25em;
+    width: 300px;
+}
+#navbar li {
+    display: inline-table;
+}
+#navbar li a {
+    display: inline-block;
+    width: 90px;
+}
+#title {
+    font-family: 'Raleway',cursive;
+    font-weight: 400;
+}
+}
