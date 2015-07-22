@@ -134,7 +134,7 @@ li ul {
     max-width: 100%;
 }
 #content a img {
-    padding: 1px;
+    padding: 3px;
 }
 #content a:hover img {
     border: 1px dotted #93CCC6;
