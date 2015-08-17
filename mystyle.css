@@ -21,12 +21,12 @@ body {
 }  
 a:link {
     border-bottom: 1px dotted #3C3E57; /* #cb4b16 */
-    color: #0F1686; /* #cb4b16 */
+    color: #3C3E57; /* #cb4b16 */
     text-decoration: none;
 }
 a:visited {
     border-bottom: 1px dotted #3C3E57;  /* #cb4b16 */
-    color: #0F1686; /* #cb4b16 */
+    color: #3C3E57; /* #cb4b16 */
     text-decoration: none;
 }
 a:hover {
@@ -40,7 +40,7 @@ a:active {
     text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #0F1686; 
+    color: #3C3E57; 
     /* font-family: "Maven+Pro","Bitstream Vera Sans",helvetica,arial,sans-serif; */
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 400;
@@ -51,7 +51,7 @@ h3 {
 }
 .category-name h3 {
     border-bottom: 1px dotted #3C3E57; /* cb4b16 */
-    color: #0F1686; /* cb4b16 */
+    color: #3C3E57; /* cb4b16 */
     font-size: smaller;
     margin-top: 3em;
     text-transform: uppercase;
