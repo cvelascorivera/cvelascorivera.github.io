@@ -110,17 +110,17 @@ li ul {
 }
 #navbar li a {
     border: medium none;
-    color: #cb4b16;  /* 93CCC6 */
+    color: #0F1686;  /* 93CCC6 */
     margin: 0;
     padding: 0.2em 0.75em 0;
     text-decoration: none;
 }
 #navbar a:hover {
-    background-color: #cb4b16;
+    background-color: #0F1686;
     color: #fdf6e3;  /* 657b83 */
 }
 #navbar #active a:hover {
-    background-color: #cb4b16;
+    background-color: #0F1686;
     color: #657b83;
 }
 #content {
@@ -168,7 +168,7 @@ blockquote p {
     text-align: right;
 }
 .project-title {
-    color: #cb4b16; 
+    color: #0F1686; 
     font-family: "Lato","Calibri",Verdana,sans-serif;
     font-size: 1.25em;
     font-weight: 300;
